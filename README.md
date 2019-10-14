@@ -44,15 +44,15 @@
 ## Tasks and Responsibilities
 * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
-### Software Lead - << name >>
+### Software Lead - Andy Liu
 
 << Worked as integration specialist by... >>
 
-### Front End Specialist - << name >>
+### Front End Specialist - Jeffrey
 
 << Front-end lead conducted significant research on... >>
 
-### Back End Specialist - << name >>
+### Back End Specialist - Donal George
 
 << The back end specialist... >>
 
