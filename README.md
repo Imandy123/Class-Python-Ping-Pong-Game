@@ -1,6 +1,6 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 
-# << Project Title >>
+# Pong
 ## CS 110 Final Project
 ### << Semester, Year >>
 ### [Assignment Description](https://drive.google.com/open?id=1HLIk-539N9KiAAG1224NWpFyEl4RsPVBwtBZ9KbjicE)
@@ -9,13 +9,13 @@
 
 << [link to demo presentation slides](#) >>
 
-### Team: << team name >>
-#### << Team Members >>
+### Team: ping pong bois
+#### Andy Liu, Jeffrey Lin, Donal George
 
 ***
 
 ## Project Description
-<< Give an overview of your project >>
+We will create a game similar to that of the classic video game pong. We will add a bit of a nuance to our game so that it becomes unique.
 
 ***    
 
