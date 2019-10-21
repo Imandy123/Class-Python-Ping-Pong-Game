@@ -5,9 +5,9 @@
 ### << Semester, Year >>
 ### [Assignment Description](https://drive.google.com/open?id=1HLIk-539N9KiAAG1224NWpFyEl4RsPVBwtBZ9KbjicE)
 
-<< [https://github.com/<repo>](#) >>
+https://github.com/bucs110/final-project-fall19-ping-pong-bois.git
 
-<< [link to demo presentation slides](#) >>
+https://docs.google.com/presentation/d/1TWBFFyGNKGuWb6dXQsHYrUvoL0zmub2yzpJmd7VnHyA/edit?usp=sharing
 
 ### Team: ping pong bois
 #### Andy Liu, Jeffrey Lin, Donal George
@@ -31,7 +31,7 @@ We will create a game similar to that of the classic video game pong. We will ad
     * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. >>
     * For each additional module you should include
         * url for the module documentation
-        * a short description of the module
+        * a short description of the module  
 * Class Interface Design
     * << A simple drawing that shows the class relationships in your code (see below for an example). >>
         * ![class diagram](assets/class_diagram.jpg)
