@@ -5,7 +5,7 @@
 ### 1st semester, 2019
 ### [Assignment Description](https://drive.google.com/open?id=1HLIk-539N9KiAAG1224NWpFyEl4RsPVBwtBZ9KbjicE)
 
-<< [https://github.com/<repo>](https://github.com/bucs110/final-project-fall19-ping-pong-bois.git) >>
+https://github.com/bucs110/final-project-fall19-ping-pong-bois.git
 
 https://docs.google.com/presentation/d/1TWBFFyGNKGuWb6dXQsHYrUvoL0zmub2yzpJmd7VnHyA/edit?usp=sharing
 
