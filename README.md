@@ -2,12 +2,12 @@
 
 # Pong
 ## CS 110 Final Project
-### Fall, 2019
+### << Semester, Year >>
 ### [Assignment Description](https://drive.google.com/open?id=1HLIk-539N9KiAAG1224NWpFyEl4RsPVBwtBZ9KbjicE)
 
-https://github.com/bucs110/final-project-fall19-ping-pong-bois.git
+<< [https://github.com/<repo>](https://github.com/bucs110/final-project-fall19-ping-pong-bois.git) >>
 
-https://docs.google.com/presentation/d/1TWBFFyGNKGuWb6dXQsHYrUvoL0zmub2yzpJmd7VnHyA/edit?usp=sharing
+<< [link to demo presentation slides](#) >>
 
 ### Team: ping pong bois
 #### Andy Liu, Jeffrey Lin, Donal George
@@ -28,7 +28,10 @@ We will create a game similar to that of the classic video game pong. We will ad
 ## Program Design
 * Non-Standard libraries
     * TBD
-    * pygame is a must
+    * definitely pygame
+    * For each additional module you should include
+        * url for the module documentation
+        * a short description of the module
 * Class Interface Design
     * TBD
 * Classes
@@ -41,24 +44,24 @@ We will create a game similar to that of the classic video game pong. We will ad
 
 ### Software Lead - Andy Liu
 
-TBD
+<< Worked as integration specialist by... >>
 
 ### Front End Specialist - Jeffrey
 
-TBD
+*most likely pygame
 
 ### Back End Specialist - Donal George
 
-TBD
+<< The back end specialist... >>
 
 ## Testing
-* TBD
-    * TBD
+* << Describe your testing strategy for your project. >>
+    * << Example >>
 
-* TBD
+* Your ATP
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Run Program  | TBD  |          |
-|   |   |  |                 |
+|  1  | Run Counter Program  | GUI window appears with count = 0  |          |
+|  2  | click count button  | display changes to count = 1 |                 |
 etc...
