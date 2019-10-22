@@ -2,7 +2,7 @@
 
 # Pong
 ## CS 110 Final Project
-### << Semester, Year >>
+### 1st semester, 2019
 ### [Assignment Description](https://drive.google.com/open?id=1HLIk-539N9KiAAG1224NWpFyEl4RsPVBwtBZ9KbjicE)
 
 << [https://github.com/<repo>](https://github.com/bucs110/final-project-fall19-ping-pong-bois.git) >>
