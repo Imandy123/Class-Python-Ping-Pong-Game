@@ -44,7 +44,7 @@ We will create a game similar to that of the classic video game pong. We will ad
 
 ### Software Lead - Andy Liu
 
-<< Worked as integration specialist by... >>
+Makes sure the members are on task, development of movement within the game.
 
 ### Front End Specialist - Jeffrey
 
