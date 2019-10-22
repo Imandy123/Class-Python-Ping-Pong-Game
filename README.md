@@ -7,7 +7,7 @@
 
 << [https://github.com/<repo>](https://github.com/bucs110/final-project-fall19-ping-pong-bois.git) >>
 
-<< [link to demo presentation slides](#) >>
+https://docs.google.com/presentation/d/1TWBFFyGNKGuWb6dXQsHYrUvoL0zmub2yzpJmd7VnHyA/edit?usp=sharing
 
 ### Team: ping pong bois
 #### Andy Liu, Jeffrey Lin, Donal George
