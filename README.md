@@ -52,11 +52,11 @@ Makes sure the members are on task, development of movement within the game.
 
 ### Back End Specialist - Donal George
 
-<< The back end specialist... >>
+TBD
 
 ## Testing
-* << Describe your testing strategy for your project. >>
-    * << Example >>
+* TBD
+    * TBD
 
 * Your ATP
 
