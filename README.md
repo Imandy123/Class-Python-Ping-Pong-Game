@@ -20,7 +20,7 @@ We will create a game similar to that of the classic video game pong. We will ad
 ***    
 
 ## User Interface Design
-* TBD
+*  ![gui design](assets/IMG_7225.jpg)
 * TBD
 
 ***        
