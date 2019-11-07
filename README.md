@@ -33,7 +33,7 @@ We will create a game similar to that of the classic video game pong. We will ad
         * url for the module documentation
         * a short description of the module
 * Class Interface Design
-    ![class diagram](assets/Infinity Pong.vpd.jpg)
+    ![class diagram](assets/InfinityPong.vpd.jpg)
     * TBD
 * Classes
     * TBD
