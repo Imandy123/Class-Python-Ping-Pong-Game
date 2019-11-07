@@ -26,6 +26,7 @@ We will create a game similar to that of the classic video game pong. We will ad
 ***        
 
 ## Program Design
+* ![class diagram](assets/Infinity Pong.vpd.jpg)
 * Non-Standard libraries
     * TBD
     * definitely pygame
@@ -33,7 +34,6 @@ We will create a game similar to that of the classic video game pong. We will ad
         * url for the module documentation
         * a short description of the module
 * Class Interface Design
-    ![class diagram](assets/Infinity Pong.vpd.jpg)
     * TBD
 * Classes
     * TBD
