@@ -1,33 +1,35 @@
 class Paddle(pygame.sprite.Sprite):
-      
-      def __init__(self, player, pos, image):
+      def __init__(self, name, pos):
           pygame.sprite.Sprite.__init__(self) 
-          self.player = player
-          self.image = pygame.image.load("paddle.png")
+          self.name = name
+          self.imageOr = pygame.image.load("paddle.png")
+          self.imageOr = pygame.transform.scale(self.imageOr, (90, 100))
+          if name == "Opp":
+             self.imageOr = pygame.transform.flip(self.imageOr, False, True)
+          self.image = self.imageOr.copy()
           self.rect = self.image.get_rect()
           self.rect.x = pos[0]
           self.rect.y = pos[1]
-          self.opScore = 0
-          self.score = 0
-      
-      def comp(self, ball, table, collisions): #Opponent
-          while self.opScore < self.score:
-                self.rect.x = ball.rect.x
-                if ball.rect.y < self.rect.y:
-                   self.score += 1
-                if self.opScore == 11:
-                   self.score = 12
-          ball.speedUp(collisions)
-          ball.bounce(table)
+     
+      def rot(self, angle):
+          prevCent = self.rect.center
+          self.image = pygame.transform.rotate(self.imageOr, angle)
+          self.rect = self.image.get_rect()
+          self.rect.center = prevCent
+                
+            
+      def sync(self, swidth):    
+          if self.rect.centerx < swidth/2:
+             self.angle = 80
+             if self.name == "Opp":
+                self.rot(-self.angle)
+             else:
+                self.rot(self.angle)
+          elif self.rect.centerx > swidth/2:
+               self.angle = 10
+               if self.name == "Opp":
+                  self.rot((self.angle))
+               else:
+                  self.rot(-(self.angle))
 
-
-      def play(self, ball, table, collisions): #You
-          while self.score > self.opScore:
-                self.rect.center = pygame.mouse.get_pos()
-                if ball.rect.y > self.rect.y:
-                   self.opScore += 1
-                if self.score == 11:
-                   self.opScore = 12
-          ball.speedUp(collisions)
-          ball.bounce(table)
           
