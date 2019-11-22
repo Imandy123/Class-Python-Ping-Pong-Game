@@ -4,6 +4,7 @@ class Paddle(pygame.sprite.Sprite):
           self.name = name
           self.imageOr = pygame.image.load("paddle.png")
           self.imageOr = pygame.transform.scale(self.imageOr, (90, 100))
+          self.imageOr = pygame.transform.rotate(self.imageOr, -20)
           if name == "Opp":
              self.imageOr = pygame.transform.flip(self.imageOr, False, True)
           self.image = self.imageOr.copy()
@@ -19,17 +20,11 @@ class Paddle(pygame.sprite.Sprite):
                 
             
       def sync(self, swidth):    
-          if self.rect.centerx < swidth/2:
-             self.angle = 80
+          if self.rect.centerx < swidth:
+             self.angle = 120/(swidth)
              if self.name == "Opp":
-                self.rot(-self.angle)
+                self.rot(-(self.angle*((swidth)-self.rect.centerx)))
              else:
-                self.rot(self.angle)
-          elif self.rect.centerx > swidth/2:
-               self.angle = 10
-               if self.name == "Opp":
-                  self.rot((self.angle))
-               else:
-                  self.rot(-(self.angle))
+                self.rot(self.angle*((swidth)-self.rect.centerx))
 
           
