@@ -63,8 +63,8 @@ TBD
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Run Controller()  | 1)Main Screen is Functional 
-2)Music playing|          
+|  1  | Run Controller()  | 1)Main Screen is Functional| 
+                          | 2)Music playing|          
 |  2  | click Instructions button  | 1)Music Continues to Play 
 2) displays necessary insturctions needed to play the game 
 3) music is not affected|               
