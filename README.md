@@ -65,5 +65,6 @@ TBD
 | ----------------------|:-------------:| -----------------:| -------------- |
 |  1  | Run Controller()  | 1)Main Screen is Functional 2)Music playing |   
 |  2  | click Instructions button  | 1)Music Continues to Play 2) displays necessary insturctions needed to play the game 3) music is not affected|               
-|  3  | Click Main Menu button| 1)Goes from the instructions screen to the Main menu 2)Main menu is functional. Music is not affected|
-etc...
+|  3  | Click Main Menu button| 1)Goes from the instructions screen to the Main menu 2)Main menu is functional 3)Music is not affected|
+|  4  | Click Play Button| 1) goes to game screen 2)Main menu music stops, gameplay music starts|
+|  5  | Moves Mouse| 1) paddle moves relative to mouse movement 
