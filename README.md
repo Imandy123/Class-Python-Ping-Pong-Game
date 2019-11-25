@@ -63,10 +63,7 @@ TBD
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Run Controller()  | 1)Main Screen is Functional| 
-                          | 2)Music playing|          
-|  2  | click Instructions button  | 1)Music Continues to Play 
-2) displays necessary insturctions needed to play the game 
-3) music is not affected|               
-|  3  | Click Main Menu button| Goes from the instructions screen to the Main menu, and is functional. Music is not affected|
+|  1  | Run Controller()  | 1)Main Screen is Functional 2)Music playing |   
+|  2  | click Instructions button  | 1)Music Continues to Play 2) displays necessary insturctions needed to play the game 3) music is not affected|               
+|  3  | Click Main Menu button| 1)Goes from the instructions screen to the Main menu 2)Main menu is functional. Music is not affected|
 etc...
