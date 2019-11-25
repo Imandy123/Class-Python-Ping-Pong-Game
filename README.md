@@ -63,6 +63,7 @@ TBD
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Run Counter Program  | GUI window appears with count = 0  |          |
-|  2  | click count button  | display changes to count = 1 |                 |
+|  1  | Run Controller()  | Main Screen is Functional, with Music playing|          |
+|  2  | click Instructions button  | Music Continues to Play, displays necessary insturctions needed to play the game|                 |
+|  3  | Click Play | 
 etc...
