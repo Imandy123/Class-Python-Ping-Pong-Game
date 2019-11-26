@@ -67,4 +67,9 @@ TBD
 |  2  | click Instructions button  | 1)Music Continues to Play 2) displays necessary insturctions needed to play the game 3) music is not affected|               
 |  3  | Click Main Menu button| 1)Goes from the instructions screen to the Main menu 2)Main menu is functional 3)Music is not affected|
 |  4  | Click Play Button| 1) goes to game screen 2)Main menu music stops, gameplay music starts|
-|  5  | Moves Mouse| 1) paddle moves relative to mouse movement 
+|  5  | Moves Mouse| 1) paddle moves relative to mouse movement 2) when padde comes in contact with ball, ball bounces off paddle|
+|  6  | General Playtesting| 1) ball bounces off the side of the screen 2) "oppenent" will move to ball and reflect the ball back 3)once player returns the ball 5 times, speeds up ball 3) if ball hits net or the top/ bottom end of the screen, it counts as a miss |
+|  7  | progressing to a win state| 1)If opponement misses, gains a point on the counter 2)When player reaches 11, moves on to new opponement 3)once player beats 5 opponents, players wins
+|  8  | progressing to a fail state|  1) if player misses or hits net, opponent gains point. 2) if opponment reaches 11 points before player, player loses|
+|  9  | Win state| Displays a congratulation screen
+| 10  | fail state| Displays a game over screen
