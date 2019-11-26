@@ -64,8 +64,8 @@ TBD
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
 |  1  | Run Controller()  | 1)Main Screen is Functional 2)Music playing |   
-|  2  | click Instructions button  | 1)Music Continues to Play 2) displays necessary insturctions needed to play the game 3) music is not affected|               
-|  3  | Click Main Menu button| 1)Goes from the instructions screen to the Main menu 2)Main menu is functional 3)Music is not affected|
+|  2  | click Instructions button  | 1)Music Continues to Play 2) displays necessary instructions needed to play the game 3) music is not affected|               
+|  3  | Click escape on keyboard| 1)Goes from the instructions screen to the Main menu 2)goes from the game screen to main menu 3) goes from congratulation/ game over screen to main screen
 |  4  | Click Play Button| 1) goes to game screen 2)Main menu music stops, gameplay music starts|
 |  5  | Moves Mouse| 1) paddle moves relative to mouse movement 2) when padde comes in contact with ball, ball bounces off paddle|
 |  6  | General Playtesting| 1) ball bounces off the side of the screen 2) "oppenent" will move to ball and reflect the ball back 3)once player returns the ball 5 times, speeds up ball 3) if ball hits net or the top/ bottom end of the screen, it counts as a miss |
