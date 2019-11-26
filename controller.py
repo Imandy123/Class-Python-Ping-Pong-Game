@@ -4,24 +4,7 @@ import math
 import paddle
 import ball
 import net
-#draw table
-#powerups
-# are you sure? progress will be lost! esc
-#cheat code that allows you to play against brazil
-#how to change sprite images like buttons and animation?
-#Play, high scores, and help (screen) buttons
-#High score json system
-#Enter name function/Gender Pick screen
-#Flag/silhouette select screen
-#Animated face and flag in screen during game, dialogue?
-#Paddle hitting ball, ball hitting sound effect
-#Ball Bounce, shadow and size difference
-#CPU losing points
-#User gaining points
-#Net detection, out of bounds
-#CPU gets harder, how?
-#Ball Speed adjust based on paddle movement
-#settings 
+
 class Controller:
     def __init__(self, width =1090, height=790):
         pygame.init()
