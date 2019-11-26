@@ -1,3 +1,4 @@
+import pygame
 class Button(pygame.sprite.Sprite):
       
       def __init__(self, name, pos, image, altimg):
