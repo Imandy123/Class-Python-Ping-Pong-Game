@@ -15,13 +15,15 @@ https://docs.google.com/presentation/d/1TWBFFyGNKGuWb6dXQsHYrUvoL0zmub2yzpJmd7Vn
 ***
 
 ## Project Description
-We will create a game similar to that of the classic video game pong. We will add a bit of a nuance to our game so that it becomes unique.
-
+Our project is a game consisting of a combination between the classic game pong,and ping pong. The user will play against a "AI" we created, and attempts to score point.
 ***    
 
 ## User Interface Design
 *  ![gui design](assets/IMG_7225.jpg)
 * TBD
+1. Main Screen
+    The main screen allows the user to start the game or check the instructions to play the game.
+    ![gui design](assets/menu)
 
 ***        
 
