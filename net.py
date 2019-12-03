@@ -4,8 +4,7 @@ class Net(pygame.sprite.Sprite):
     def __init__(self, x, y, swidth):
         pygame.sprite.Sprite.__init__(self)
         self.finPos = swidth
-        self.image = pygame.Surface((300, 20))
-        pygame.draw.line(self.image, (255,255, 255) ,(0, 0),(300, 0), 20)
+        self.image = pygame.Surface((300, 10))
         self.image.fill((255,255,255))
         self.mask = pygame.mask.from_surface(self.image)
         self.rect = self.image.get_rect()
@@ -27,5 +26,3 @@ class Net(pygame.sprite.Sprite):
                   self.rect.right += speed
            else:
                 self.raPos = random.randrange(300, self.finPos+1)
-
-
