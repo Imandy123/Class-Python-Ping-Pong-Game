@@ -21,7 +21,7 @@ Our project is a game consisting of a combination between the classic game pong,
 ## User Interface Design
 *  ![gui design](assets/IMG_7225.jpg)
 * TBD
-## 1. Main Screen
+# 1. Main Screen
    The main screen allows the user to start the game or check the instructions to play the game.
     ![gui design](assets/menu/frame_000_delay-0.03s.png)
 
