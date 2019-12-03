@@ -23,7 +23,7 @@ Our project is a game consisting of a combination between the classic game pong,
 * TBD
 1. Main Screen
     The main screen allows the user to start the game or check the instructions to play the game.
-    ![gui design](assets/menu)
+    ![gui design](assets/menu/frame_00_delay-0,03s.png)
 
 ***        
 
