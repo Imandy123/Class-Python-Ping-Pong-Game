@@ -24,21 +24,36 @@ Our project is a game consisting of a combination between the classic game pong,
 # 1. Main Screen
    The main screen allows the user to start the game or check the instructions to play the game.
     ![gui design](assets/menu/frame_000_delay-0.03s.png)
-
+# 2. Game screen
+   This is where the actual game takes place when you click on the play button. The ball should bounce off the side of the wall,
+   as well as the paddles. If the "AI" misses or hits the net, you gain a point. If the user misses or hits the net, "AI" gains
+   the point. When the player beats all the "AI," a congratulation screen will appear. Otherwise, you will be shown the Game Over
+   Screen.
+   ![gui design](assets/gamebgTBD.png)
+# 3. Congratulation screen
+   This screen will appear once the user has defeated all the "AI." 
+   ![gui design](assets)
+# 4. Game Over screen
+   This screen will appear when the user loses.
+   ![gui design](assets)
 ***        
 
 ## Program Design
 * ![class diagram](assets/class_diagram.jpg)
 * Non-Standard libraries
-    * TBD
-    * definitely pygame
+    * pygame
     * For each additional module you should include
         * url for the module documentation
         * a short description of the module
 * Class Interface Design
     * TBD
 * Classes
-    * TBD
+    ball- A class that defines the ball- The ball sprite bounces
+    button-
+    controller-
+    flag-
+    net-
+    paddle-
 
 ***
 
