@@ -32,10 +32,10 @@ Our project is a game consisting of a combination between the classic game pong,
    ![gui design](assets/gamebgTBD.png)
 # 3. Congratulation screen
    This screen will appear once the user has defeated all the "AI." 
-   ![gui design](assets)
+   ![gui design](assets/winning.png)
 # 4. Game Over screen
    This screen will appear when the user loses.
-   ![gui design](assets)
+   ![gui design](assets/losing.png)
 ***        
 
 ## Program Design
