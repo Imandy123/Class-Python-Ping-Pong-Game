@@ -13,8 +13,8 @@ class Controller:
         pygame.mouse.set_cursor(*pygame.cursors.diamond)
         self.icon = pygame.image.load('assets/paddle.png')
         pygame.display.set_icon(self.icon)
-        self.timage = pygame.image.load("assets/intro.png").convert()
-        self.timage = pygame.transform.scale(self.timage, (width, height))
+        self.gif = [pygame.image.load("assets/menu/f"+str(i)+".png").convert() for i in range(1,524)]
+        self.timage = self.gif[0]
         #self.bgimage = pygame.image.load("bg.png").convert()
         #self.bgimage = pygame.transform.scale(self.bgimage, (width, height))
         self.ping = pygame.mixer.Sound("assets/ping.wav")
@@ -28,8 +28,8 @@ class Controller:
         self.netbol = False
         self.difficulty = 0
         self.net = net.Net(0, self.height/2, self.width)
-        self.userPad = paddle.Paddle("User", (0, height))
-        self.opPad = paddle.Paddle("Opp", (0, 0))
+        self.userPad = paddle.Paddle("User", "assets/player.png", (width/2, height))
+        self.opPad = paddle.Paddle("Opp", "assets/cpu.png", (width/2, 0))
         self.ball = ball.Ball(530, 600)
         self.balls = pygame.sprite.GroupSingle(self.ball) 
         self.STATE = "INTRO"
@@ -46,6 +46,7 @@ class Controller:
     def intro(self):
             pygame.mixer.music.load('assets/Infinity Pong Theme.mp3')
             pygame.mixer.music.play(-1)  
+            count = 0
             while self.STATE == "INTRO":
                         for event in pygame.event.get():
                               if event.type == pygame.QUIT: 
@@ -54,6 +55,15 @@ class Controller:
                               elif event.type == pygame.KEYDOWN:
                                      if(event.key == pygame.K_SPACE):
                                        self.STATE = "GAME"
+                        
+                        if count >= 0 and count <= len(self.gif)-1:
+                           self.timage = self.gif[count]
+                           self.timage = pygame.transform.scale(self.timage, (self.width, self.height+100))
+                           count+=1
+                        else:
+                           self.timage = self.gif[0]
+                           self.timage = pygame.transform.scale(self.timage, (self.width, self.height+100))
+                           count = 1
                         self.screen.blit(self.timage, (0, 0))
                         pygame.display.flip()
                        
