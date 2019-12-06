@@ -49,13 +49,12 @@ Our project is a game consisting of a combination between the classic game pong,
     * TBD
 * Classes
     ball- A class that defines the ball- The ball sprite bounces off the sides of the wall, the net, the paddle and will reset when 
-    it hits the 
-    vertical sides of the screen.
-    button- A class that defines the button -When the start button is pressed, moves to gameplay screen. When the instructrions button 
+    it hits the vertical sides of the screen.
+    Button- A class that defines the button -When the start button is pressed, moves to gameplay screen. When the instructrions button 
     pressed it will display the instructions necessary to play the game.
-    controller- A class that will determine the rules and logic of the game. It also creates the enemy AI.
-    net- A class that defines the net- the net will move ranodomly on the middle of the screen.
-    paddle- User paddle will move according to the mouse movement, and ball will bounce off the paddle.
+    Controller- A class that will determine the rules and logic of the game. It also creates the enemy AI.
+    Net- A class that defines the net- the net will move ranodomly on the middle of the screen.
+    Paddle- User paddle will move according to the mouse movement, and ball will bounce off the paddle.
 
 ***
 
