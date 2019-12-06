@@ -69,7 +69,7 @@ Our project is a game consisting of a combination between the classic game pong 
 Makes sure the members are on task, development of movement within the game. Works closely with the Back ENd Specialist to create the code(i.e Ball mechanics, opponement AI). Will work with the Front End Specialist to create the necessary GUIs and Sprites.
 
 ### Front End Specialist - Jeffrey
-Works on pygame to develop the GUI necessary. Creates the Main Menu Screen, the Play and instructions button Sprites, the ball sprite, the paddle sprite, and finds the music fitting for each GUI. Works with the Back End Specialist so the visualization of the game is consistent.
+Works on pygame to develop the GUI necessary. Creates the Main Menu Screen, the Play and instructions button Sprites, the ball sprite, the paddle sprite, and finds the music fitting for each GUI. Works with the Back End Specialist so the visualization of the game is consistent. Created the base of the Controller.py
 
 ### Back End Specialist - Donal George
 Works on coding. Creates the classes necessary for the game to function, such as ball, paddle, net, etc. Works with the Front end Specialist in developing the screens for the game. Works with the Software Lead in creating code for ball mechanics as well as AI movement.
