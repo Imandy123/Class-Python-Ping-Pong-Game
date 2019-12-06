@@ -48,12 +48,14 @@ Our project is a game consisting of a combination between the classic game pong,
 * Class Interface Design
     * TBD
 * Classes
-    ball- A class that defines the ball- The ball sprite bounces
-    button-
-    controller-
-    flag-
-    net-
-    paddle-
+    ball- A class that defines the ball- The ball sprite bounces off the sides of the wall, the net, the paddle and will reset when 
+    it hits the 
+    vertical sides of the screen.
+    button- A class that defines the button -When the start button is pressed, moves to gameplay screen. When the instructrions button 
+    pressed it will display the instructions necessary to play the game.
+    controller- A class that will determine the rules and logic of the game. It also creates the enemy AI.
+    net- A class that defines the net- the net will move ranodomly on the middle of the screen.
+    paddle- User paddle will move according to the mouse movement, and ball will bounce off the paddle.
 
 ***
 
@@ -62,18 +64,18 @@ Our project is a game consisting of a combination between the classic game pong,
 
 ### Software Lead - Andy Liu
 
-Makes sure the members are on task, development of movement within the game.
+Makes sure the members are on task, development of movement within the game. Works closely with the Back ENd Specialist to create the code(i.e Ball mechanics, opponement AI). Will work with the Front End Specialist to create the necessary GUI.
 
 ### Front End Specialist - Jeffrey
-
+Works on pygame to develop the GUI necessary. Creates the Main Menu Screen, the Play and instructions button Sprite, the ball sprite, the paddle sprite, and finds the music fitting for each GUI. Works with the Back End Specialist so the visualization of the game is consistent.
 *most likely pygame
 
 ### Back End Specialist - Donal George
-
+Works on coding. Creates the classes necessary for the game to function, such as ball, paddle, net, etc. Works with the Front end Specialist in developing the screens for the game. Works with the Software Lead in creating code for ball mechanics as well as AI movement.
 TBD
 
 ## Testing
-* TBD
+*
     * TBD
 
 * Your ATP
