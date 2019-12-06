@@ -23,7 +23,7 @@ Our project is a game consisting of a combination between the classic game pong 
 * TBD
 # 1. Main Screen
    The main screen allows the user to start the game or check the instructions to play the game.
-    ![gui design](assets/menu/frame_000_delay-0.03s.png)
+    ![gui design](assets/menu/f1.png)
 # 2. Game screen
    This is where the actual game takes place after you click on the play button. The ball should bounce off the side of the wall,
    as well as the paddles. If the "AI" misses or hits the net, you gain a point. If the user misses or hits the net, "AI" gains
