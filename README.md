@@ -29,7 +29,7 @@ Our project is a game consisting of a combination between the classic game pong 
    as well as the paddles. If the "AI" misses or hits the net, you gain a point. If the user misses or hits the net, "AI" gains
    the point. When the player beats all the "AI," a congratulation screen will appear. Otherwise, you will be shown the Game Over
    Screen.
-   ![gui design](assets/gamebgTBD.png)
+   ![gui design](assets/gamebg.png)
 # 3. Congratulation screen
    This screen will appear once the user has defeated all the "AI." 
    ![gui design](assets/winning.png)
