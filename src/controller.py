@@ -8,18 +8,7 @@ from src import ball
 from src import net
 from src import flag
 import json
-#draw table
-#loading bar, health bar
-#powerups
-# are you sure? progress will be lost! esc
-#cheat code that allows you to play against brazil
-#Enter name function/Gender Pick screen
-#Animated face and during game, dialogue?
-#Ball Bounce, shadow and size difference
-#Net detection, out of bounds
-#CPU gets harder, how?
-#Ball Speed adjust based on paddle movement
-#settings 
+
 class Controller:
     def __init__(self, width =1090, height=790):
         pygame.init()
