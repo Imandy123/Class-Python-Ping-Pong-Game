@@ -59,7 +59,8 @@ Our project is a game consisting of a combination between the classic game pong 
     Net- A class that defines the net- the net will move ranodomly on the middle of the screen.
     
     Paddle- User paddle will move according to the mouse movement, and ball will bounce off the paddle.
-
+    
+    Flag- A class that defines the flag- The flag will used is for decorations, and for identifying the different AIs.
 ***
 
 ## Tasks and Responsibilities
