@@ -15,7 +15,7 @@ https://docs.google.com/presentation/d/1TWBFFyGNKGuWb6dXQsHYrUvoL0zmub2yzpJmd7Vn
 ***
 
 ## Project Description
-Our project is a game consisting of a combination between the classic game pong,and ping pong. The user will play against a "AI" we created, and attempts to score point.
+Our project is a game consisting of a combination between the classic game pong ,and ping pong. The user will play against a "AI" we created, and attempts to score points to win the game.
 ***    
 
 ## User Interface Design
@@ -25,7 +25,7 @@ Our project is a game consisting of a combination between the classic game pong,
    The main screen allows the user to start the game or check the instructions to play the game.
     ![gui design](assets/menu/frame_000_delay-0.03s.png)
 # 2. Game screen
-   This is where the actual game takes place when you click on the play button. The ball should bounce off the side of the wall,
+   This is where the actual game takes place after you click on the play button. The ball should bounce off the side of the wall,
    as well as the paddles. If the "AI" misses or hits the net, you gain a point. If the user misses or hits the net, "AI" gains
    the point. When the player beats all the "AI," a congratulation screen will appear. Otherwise, you will be shown the Game Over
    Screen.
@@ -48,8 +48,8 @@ Our project is a game consisting of a combination between the classic game pong,
 * Class Interface Design
     * TBD
 * Classes
-    ball- A class that defines the ball- The ball sprite bounces off the sides of the wall, the net, the paddle and will reset when 
-    it hits the vertical sides of the screen.
+    ball- A class that defines the ball. The ball sprite bounces off the left and right sides of the wall, net, paddle and will reset
+    when it hits the vertical sides of the screen.
     
     Button- A class that defines the button -When the start button is pressed, moves to gameplay screen. When the instructrions button 
     pressed it will display the instructions necessary to play the game.
@@ -66,20 +66,24 @@ Our project is a game consisting of a combination between the classic game pong,
 * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
 ### Software Lead - Andy Liu
-
-Makes sure the members are on task, development of movement within the game. Works closely with the Back ENd Specialist to create the code(i.e Ball mechanics, opponement AI). Will work with the Front End Specialist to create the necessary GUI.
+Makes sure the members are on task, development of movement within the game. Works closely with the Back ENd Specialist to create the code(i.e Ball mechanics, opponement AI). Will work with the Front End Specialist to create the necessary GUIs and Sprites.
 
 ### Front End Specialist - Jeffrey
-Works on pygame to develop the GUI necessary. Creates the Main Menu Screen, the Play and instructions button Sprite, the ball sprite, the paddle sprite, and finds the music fitting for each GUI. Works with the Back End Specialist so the visualization of the game is consistent.
-*most likely pygame
+Works on pygame to develop the GUI necessary. Creates the Main Menu Screen, the Play and instructions button Sprites, the ball sprite, the paddle sprite, and finds the music fitting for each GUI. Works with the Back End Specialist so the visualization of the game is consistent.
 
 ### Back End Specialist - Donal George
 Works on coding. Creates the classes necessary for the game to function, such as ball, paddle, net, etc. Works with the Front end Specialist in developing the screens for the game. Works with the Software Lead in creating code for ball mechanics as well as AI movement.
 TBD
 
 ## Testing
-*
-    * TBD
+1. Screen Testing- menu screen should pop up when game is launched. When Play button is clicked, it should bring you to the gameplay
+screen. When player wins, it should bring you to the Congratulation Screen. If player loses, screen should shift to the Game Over 
+.
+
+2. Gameplay- Player paddle should move relative to the mouse movement. When ball comes in contact with the paddle, net, or the left and 
+right side of the screen, it should bounce off. When the ball comes in contact with the top or bottom left side of the screen, ball 
+should reset, and point should be distributed accordingly. When the ball hits the net, point should also be awarded accordingly. 
+   
 
 * Your ATP
 
